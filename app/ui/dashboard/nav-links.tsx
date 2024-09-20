@@ -22,7 +22,7 @@ const links = [
 ];
 
 export default function NavLinks() {
-  const pathname: String = usePathname();
+  const pathname = usePathname();
 
   return (
     <>
